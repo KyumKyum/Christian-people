@@ -6,6 +6,7 @@ import Contents from "../constants/Contents";
 import _ from "lodash";
 import BreakableText from "../components/BreakableText";
 import type { PersonalityType } from "../interfaces/Personality";
+import decidePersonality from "../utils/decidePersonality";
 
 function ContentPage() {
 	const [curIndex, setCurIndex] = useState<number>(0);
@@ -31,6 +32,8 @@ function ContentPage() {
 			setSelector(Math.random() < 0.5 ? 0 : 1);
 		} else {
 			//* Move to result page
+			const result = decidePersonality([...selectionList, selection]);
+			console.log(result);
 		}
 	};
 

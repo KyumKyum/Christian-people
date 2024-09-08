@@ -96,7 +96,7 @@ const Contents: Content[] = [
 		type: PersonalityType.DECISION,
 		answers: [
 			{
-				text: "여유롭게 근처에 있는\n카페를 알아본다.",
+				text: "여유롭게 근처에 있는\n카페에 들어간다.",
 				grade: -1,
 			},
 			{

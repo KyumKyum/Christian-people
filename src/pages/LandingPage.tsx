@@ -3,16 +3,9 @@ import Canvas from "../layouts/Canvas";
 import Daniel from "../assets/Daniel.png";
 import SpreadedCards from "../components/SpreadedCards";
 import { INDEX, SELECTION } from "../constants/localStorageKey";
-import type { Personality } from "../interfaces/Personality";
 
 function LandingPage() {
 	const moveToNextPage = () => {
-		const personality: Personality = {
-			energy: 0,
-			focus: 0,
-			judgement: 0,
-			decision: 0,
-		};
 		localStorage.setItem(SELECTION, JSON.stringify([]));
 		localStorage.setItem(INDEX, "0");
 		window.location.href = "/contents";
