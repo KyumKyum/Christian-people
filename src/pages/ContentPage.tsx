@@ -33,7 +33,8 @@ function ContentPage() {
 		} else {
 			//* Move to result page
 			const result = decidePersonality([...selectionList, selection]);
-			console.log(result);
+
+			window.location.href = `/detail?character=${result}`;
 		}
 	};
 
@@ -74,7 +75,7 @@ function ContentPage() {
 	return (
 		<Canvas>
 			{curContent && (
-				<div className="flex flex-col h-full px-10 items-center justify-center">
+				<div className="flex flex-col h-screen px-10 items-center justify-center">
 					<div className="flex flex-col items-center">
 						<p className="font-Laundry text-4xl mb-2 text-[#402a01]">
 							{curIndex + 1}

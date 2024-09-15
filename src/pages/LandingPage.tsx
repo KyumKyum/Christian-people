@@ -1,6 +1,6 @@
 import TypingText from "../components/TypingText";
 import Canvas from "../layouts/Canvas";
-import Daniel from "../assets/Daniel.png";
+import Daniel from "../assets/daniel.png";
 import SpreadedCards from "../components/SpreadedCards";
 import { INDEX, SELECTION } from "../constants/localStorageKey";
 
