@@ -9,7 +9,7 @@ enum PEOPLE {
     JONATHAN = "jonathan",
     JEREMIAH = "jeremiah",
     MOSES = "moses",
-    MATTEW = "matew",
+    MATTHEW = "matthew",
     ESTHER = "esther",
     PAUL = "paul",
     REBECCA = "rebecca",

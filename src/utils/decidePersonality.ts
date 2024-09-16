@@ -87,7 +87,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
                 if(personality.decision > 0){ //* ISTJ
                     result = PEOPLE.ISAIAH;
                 }else { //* ISTP
-                    result = PEOPLE.MATTEW
+                    result = PEOPLE.MATTHEW
                 }
             }
         }
