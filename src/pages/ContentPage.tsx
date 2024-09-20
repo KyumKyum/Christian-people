@@ -34,7 +34,7 @@ function ContentPage() {
 			//* Move to result page
 			const result = decidePersonality([...selectionList, selection]);
 
-			window.location.href = `/detail?character=${result}`;
+			window.location.href = `/details?character=${result}`;
 		}
 	};
 

@@ -51,7 +51,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
                 if(personality.decision > 0){ //* ESFJ
                     result = PEOPLE.DAVID;
                 }else { //* ESFP
-                    result = PEOPLE.MOSES
+                    result = PEOPLE.PAUL
                 }
             }else { // EST
                 if(personality.decision > 0){ //* ESTJ
@@ -73,7 +73,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
                 if(personality.decision > 0){ //* INTJ
                     result = PEOPLE.DANIEL;
                 }else { //* INTP
-                    result = PEOPLE.PAUL
+                    result = PEOPLE.MOSES
                 }
             }
         }else { // IS

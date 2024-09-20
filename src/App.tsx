@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import ContentPage from "./pages/ContentPage";
 import DetailPage from "./pages/DetailPage";
 import "./App.css";
+import GalleryPage from "./pages/GalleryPage";
 
 function App() {
 	return (
@@ -10,7 +11,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
 				<Route path="/contents" element={<ContentPage />} />
-				<Route path="/detail" element={<DetailPage />} />
+				<Route path="/details" element={<DetailPage />} />
+				<Route path="/gallery" element={<GalleryPage />} />
 			</Routes>
 		</BrowserRouter>
 	);

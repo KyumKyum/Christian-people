@@ -82,9 +82,12 @@ function DetailPage() {
 					<button
 						type="button"
 						className="flex justify-center items-center w-3/4 rounded-xl border-2 border-[#302a01] py-2"
+						onClick={() => {
+							window.location.href = "/gallery";
+						}}
 					>
 						<span className="text-2xl font-LSY text-[#302a01]">
-							다른 결과 보기
+							다른 인물 보기
 						</span>
 					</button>
 				</div>
