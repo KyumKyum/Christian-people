@@ -18,16 +18,23 @@ interface Image {
 }
 
 const IMAGES: Record<PEOPLE, Image> = {
-    [PEOPLE.JOSEPH]: {url: Joseph, alt: 'joseph', meta: '요셉'},
-    [PEOPLE.DANIEL]: {url: Daniel, alt: 'daniel', meta: '다니엘'},
-    [PEOPLE.JOSHUA]: {url: Joshua, alt: 'joshua', meta: '여호수아'},
-    [PEOPLE.MATTHEW]: {url: Matthew, alt: 'matthew', meta: '마태'},
-    [PEOPLE.ESTHER]: {url: Esther, alt: 'esther', meta: '에스더'},
-    [PEOPLE.LUKE]: {url: Luke, alt: 'luke', meta: '의사 누가'},
-    [PEOPLE.NEHEMIAH]: {url: Nehemiah, alt: 'nehemiah', meta: '느헤미야'},
-    [PEOPLE.DAVID]: {url: David, alt: 'david', meta: '다윗'},
-    [PEOPLE.MOSES]: {url: Moses, alt: 'moses', meta: '모세'},
-    [PEOPLE.PETER]: {url: Peter, alt: 'peter', meta: '베드로'},
+    [PEOPLE.JOSEPH]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.DANIEL]: { url: Daniel, alt: 'daniel', meta: '다니엘' },
+    [PEOPLE.JOSHUA]: { url: Joshua, alt: 'joshua', meta: '여호수아' },
+    [PEOPLE.MATTHEW]: { url: Matthew, alt: 'matthew', meta: '마태' },
+    [PEOPLE.ESTHER]: { url: Esther, alt: 'esther', meta: '에스더' },
+    [PEOPLE.LUKE]: { url: Luke, alt: 'luke', meta: '의사 누가' },
+    [PEOPLE.NEHEMIAH]: { url: Nehemiah, alt: 'nehemiah', meta: '느헤미야' },
+    [PEOPLE.DAVID]: { url: David, alt: 'david', meta: '다윗' },
+    [PEOPLE.MOSES]: { url: Moses, alt: 'moses', meta: '모세' },
+    [PEOPLE.PETER]: { url: Peter, alt: 'peter', meta: '베드로' },
+    //* TODO: Change
+    [PEOPLE.JONATHAN]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.JEREMIAH]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.PAUL]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.REBECCA]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.JOB]: { url: Joseph, alt: 'joseph', meta: '요셉' },
+    [PEOPLE.ISAIAH]: { url: Joseph, alt: 'joseph', meta: '요셉' }
 }
 
 export default IMAGES
