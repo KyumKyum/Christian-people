@@ -36,7 +36,7 @@ function DetailPage() {
 						`${fade}`,
 					)}
 				>
-					<span className="font-LSY font-bold text-4xl text-[#402a01] animate-bounce">
+					<span className="font-LSY font-bold text-3xl text-[#402a01] animate-bounce">
 						결과를 불러오고 있습니다...
 					</span>
 				</div>

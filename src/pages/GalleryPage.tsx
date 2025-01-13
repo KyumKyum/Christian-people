@@ -5,7 +5,7 @@ import IMAGES from "../constants/Images";
 function GalleryPage() {
 	return (
 		<Canvas>
-			<div className="flex flex-col w-full justify-center">
+			<div className="flex flex-col w-full justify-center items-center">
 				<p className="w-5/6 mt-8 text-center text-3xl font-LSY text-[#302A01]">
 					성경 인물 리스트
 				</p>
@@ -42,7 +42,7 @@ function GalleryPage() {
 						window.location.href = "/";
 					}}
 				>
-					<p className="text-base font-LSY text-black">뒤로가기</p>
+					<p className="text-base font-LSY text-black">처음으로</p>
 				</button>
 			</div>
 		</Canvas>
