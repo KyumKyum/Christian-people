@@ -11,7 +11,6 @@ import David from "assets/david.png";
 import Moses from "assets/moses.png";
 import Peter from "assets/peter.png";
 
-
 interface Image {
 	url: string;
 	alt: string;
