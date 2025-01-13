@@ -33,11 +33,12 @@ const Contents: Content[] = [
 		],
 	},
 	{
-		question: '"이번 한번만 예배 빠지면 안돼...?"\n라고 말하는 비신자 친구에게\n나는...', 
+		question:
+			'"너,이번 한번만 예배 빠지면 안돼...?"\n라고 말하는 비신자 친구에게\n나는...',
 		type: PersonalityType.JUDGEMENT,
 		answers: [
 			{
-				text: "안되는 것은 안되는 것!\n논리적인 이유와 함께\n예배만큼은 안된다고 이야기를 한다.",
+				text: "안되는 것은 안되는 것!\n납득할 수 있는 논리적인 이유와 함께\n예배만큼은 안된다고 이야기를 한다.",
 				grade: -1,
 			},
 			{
@@ -48,15 +49,15 @@ const Contents: Content[] = [
 	},
 	{
 		question:
-			"항상 검은색 정장을 입으시던 목사님,\n오늘 갑자기 하얀색 정장을 입고 오셨다!\n나는...",
+			"항상 검은색 정장을 입으시던 목사님,\n오늘 갑자기 분홍색 셔츠을 입고 오셨다!\n나는...",
 		type: PersonalityType.FOCUS,
 		answers: [
 			{
-				text: "하얀색 셔츠? (별 생각 없음)",
+				text: "분홍색 셔츠? (별 생각 없음)",
 				grade: -1,
 			},
 			{
-				text: "하얀색 셔츠??? 오늘 무슨 날인가?\n갑자기 무슨 일이시지?\n왜 하필 하얀색이지?",
+				text: "분홍색 셔츠??? 오늘 무슨 날인가?\n갑자기 무슨 일이시지?\n왜 하필 분홍색이지?",
 				grade: 1,
 			},
 		],
@@ -77,15 +78,15 @@ const Contents: Content[] = [
 		],
 	},
 	{
-		question: "교회에서 2주 후에 있을 봉사 사역의\n리더를 맡을 것을 권유받았다.\n나는...",
+		question: '"우리 같이 찬양 릴스 찍자!!"\n신나보이는 친구의 말에 나는...',
 		type: PersonalityType.ENERGY,
 		answers: [
 			{
-				text: "해야하는 사역이니\n큰 마음을 먹고 감당한다.",
+				text: "어...음...파이팅...^^",
 				grade: -1,
 			},
 			{
-				text: "다양한 사람들을 만날 수 있는 기회!\n즐겁게 나간다.",
+				text: "대박!! 너무 좋지!\n어떤 찬양으로 할까?",
 				grade: 1,
 			},
 		],
@@ -96,11 +97,11 @@ const Contents: Content[] = [
 		type: PersonalityType.DECISION,
 		answers: [
 			{
-				text: "여유롭게 근처에 있는\n카페에 들어간다.",
+				text: "여유롭게 근처에 있는\n괜찮아 보이는 카페에 들어간다.",
 				grade: -1,
 			},
 			{
-				text: "여유롭게 플랜 B로 넘어간다",
+				text: "여유롭게 미리 생각해둔\n플랜 B로 넘어간다",
 				grade: 1,
 			},
 		],
@@ -141,11 +142,11 @@ const Contents: Content[] = [
 		type: PersonalityType.JUDGEMENT,
 		answers: [
 			{
-				text: "정말? 어떤 은혜를 받았는데?",
+				text: "정말? 어떤 은혜를 받았는데?\n궁금하다!",
 				grade: -1,
 			},
 			{
-				text: "정말? 너무 기쁘다!\n나도 은혜로운데?",
+				text: "정말? 너무 기쁘다!\n정말 은혜로운 수양회지! :)",
 				grade: 1,
 			},
 		],

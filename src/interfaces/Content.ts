@@ -11,6 +11,6 @@ export interface Content {
 }
 
 export interface Selection {
-	type: PersonalityType,
-	grade: -1 | 1,
+	type: PersonalityType;
+	grade: -1 | 1;
 }

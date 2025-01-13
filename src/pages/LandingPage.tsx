@@ -1,8 +1,8 @@
 import TypingText from "../components/TypingText";
 import Canvas from "../layouts/Canvas";
-import Daniel from "../assets/daniel.png";
 import SpreadedCards from "../components/SpreadedCards";
 import { INDEX, SELECTION } from "../constants/localStorageKey";
+import getRandomImages from "../utils/randomImages";
 
 function LandingPage() {
 	const moveToNextPage = () => {
@@ -17,9 +17,9 @@ function LandingPage() {
 				<TypingText
 					text="나는 누구의 신앙을_닮아있을까?"
 					typingSpeed={100}
-					className="font-LSY font-bold text-4xl text-[#402a01]"
+					className="font-LSY font-bold text-4xl h-24 text-[#402a01]"
 				/>
-				<SpreadedCards cardUrls={[Daniel, Daniel, Daniel, Daniel]} />
+				<SpreadedCards cardUrls={getRandomImages(6)} />
 				<button
 					type="button"
 					className="mt-10 w-3/4 h-10 rounded-xl bg-[#302a01] flex justify-center items-center hover:scale-125 transition-transform ease-in-out"

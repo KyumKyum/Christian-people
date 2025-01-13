@@ -5,6 +5,9 @@ import IMAGES from "../constants/Images";
 function GalleryPage() {
 	return (
 		<Canvas>
+			<p className="w-5/6 mt-8 text-center text-3xl font-LSY text-[#302A01]">
+				성경 인물 리스트
+			</p>
 			<div className="w-5/6 grid grid-cols-2 gap-x-2 gap-y-4 my-10">
 				{_.map(IMAGES, (image, index) => {
 					return (
@@ -31,6 +34,15 @@ function GalleryPage() {
 					);
 				})}
 			</div>
+			<button
+				type="button"
+				className=" mb-10 w-5/6 h-6 p-6 rounded-xl border-2 border-[#302a01] flex justify-center items-center"
+				onClick={() => {
+					window.location.href = "/"
+				}}
+			>
+				<p className="text-base font-LSY text-black">뒤로가기</p>
+			</button>
 		</Canvas>
 	);
 }

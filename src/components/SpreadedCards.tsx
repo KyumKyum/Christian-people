@@ -26,7 +26,7 @@ const cardsConfig = [
 	},
 	{
 		rotationClass: "group-hover:rotate-[45deg]",
-		revealClass: "rotate-[6deg]",
+		revealClass: "rotate-[4deg]",
 	},
 ];
 
@@ -35,7 +35,7 @@ function SpreadedCards({ cardUrls }: SpreadedCardsProps) {
 
 	useEffect(() => {
 		if (cardUrls.length > 0) {
-			const loadedCards = cardUrls.slice(0, 3).map((url, index) => {
+			const loadedCards = cardUrls.slice(0, 4).map((url, index) => {
 				const img = new Image();
 				img.src = url;
 				return {
@@ -55,7 +55,7 @@ function SpreadedCards({ cardUrls }: SpreadedCardsProps) {
 					"gap-3": true,
 				})}
 			>
-				{cards.map((card, index) => (
+				{cards.slice(0, 2).map((card, index) => (
 					<div
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
@@ -75,7 +75,7 @@ function SpreadedCards({ cardUrls }: SpreadedCardsProps) {
 					"gap-3": true,
 				})}
 			>
-				{cards.map((card, index) => (
+				{cards.slice(2).map((card, index) => (
 					<div
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
