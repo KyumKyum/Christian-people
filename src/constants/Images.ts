@@ -1,15 +1,16 @@
 import PEOPLE from "./People";
 
-import Joseph from "../assets/joseph.png";
-import Daniel from "../assets/daniel.png";
-import Joshua from "../assets/joshua.png";
-import Matthew from "../assets/matthew.png";
-import Esther from "../assets/esther.png";
-import Luke from "../assets/luke.png";
-import Nehemiah from "../assets/nehemiah.png";
-import David from "../assets/david.png";
-import Moses from "../assets/moses.png";
-import Peter from "../assets/peter.png";
+import Joseph from "assets/joseph.png";
+import Daniel from "assets/daniel.png";
+import Joshua from "assets/joshua.png";
+import Matthew from "assets/matthew.png";
+import Esther from "assets/esther.png";
+import Luke from "assets/luke.png";
+import Nehemiah from "assets/nehemiah.png";
+import David from "assets/david.png";
+import Moses from "assets/moses.png";
+import Peter from "assets/peter.png";
+
 
 interface Image {
 	url: string;
