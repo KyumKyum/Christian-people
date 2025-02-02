@@ -14,7 +14,7 @@ enum PEOPLE {
 	PAUL = "paul",
 	REBECCA = "rebecca",
 	JOB = "job",
-	ISAIAH = "isaiah",
+	// ISAIAH = "isaiah",
 }
 
 export default PEOPLE;

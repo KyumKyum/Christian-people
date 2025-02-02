@@ -13,13 +13,20 @@ function GalleryPage() {
 					{_.map(IMAGES, (image, index) => {
 						return (
 							<div className="flex flex-col gap-y-2">
-								<img
-									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-									key={index}
-									src={image.url}
-									alt={image.alt}
-									className="w-full h-full"
-								/>
+								<button
+								    className="w-full h-full"
+									onClick={() => {
+										window.location.href = `/details?character=${image.alt}`;
+									}}
+								>
+							        <img
+								    	// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+								    	key={index}
+								    	src={image.url}
+								    	alt={image.alt}
+								    	className="w-full h-full"
+								    />
+								</button>
 								<button
 									type="button"
 									className="flex justify-center items-center rounded-xl bg-[#302a01] py-2 mb-4"

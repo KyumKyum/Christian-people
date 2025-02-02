@@ -67,7 +67,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
 					result = PEOPLE.DAVID;
 				} else {
 					//* ESFP
-					result = PEOPLE.PAUL;
+					result = PEOPLE.REBECCA;
 				}
 			} else {
 				// EST
@@ -76,7 +76,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
 					result = PEOPLE.NEHEMIAH;
 				} else {
 					//* ESTP
-					result = PEOPLE.REBECCA;
+					result = PEOPLE.PAUL;
 				}
 			}
 		}
@@ -100,7 +100,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
 					result = PEOPLE.DANIEL;
 				} else {
 					//* INTP
-					result = PEOPLE.MOSES;
+					result = PEOPLE.MATTHEW;
 				}
 			}
 		} else {
@@ -118,7 +118,7 @@ const decidePersonality = (selections: Selection[]): PEOPLE => {
 				// IST
 				if (personality.decision > 0) {
 					//* ISTJ
-					result = PEOPLE.ISAIAH;
+					result = PEOPLE.MOSES;
 				} else {
 					//* ISTP
 					result = PEOPLE.MATTHEW;

@@ -34,7 +34,7 @@ const Contents: Content[] = [
 	},
 	{
 		question:
-			'"너,이번 한번만 예배 빠지면 안돼...?"\n라고 말하는 비신자 친구에게\n나는...',
+			'"너, 이번 한번만 예배 빠지면 안돼...?"\n라고 말하는 비신자 친구에게\n나는...',
 		type: PersonalityType.JUDGEMENT,
 		answers: [
 			{
